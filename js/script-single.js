@@ -3,5 +3,7 @@
 for(i = 0; i < 9; i++) {
     var photopath = "photos/temp-";
     var extension = ".jpg";
-    $(".test-single").append("<img class='photo' src="+photopath+i+extension+"/>");
+    var partA = "<img class='photo' src=";
+    var partB = "/>";
+    $(".test-single").append(partA+photopath+i+extension+partB);
 }
