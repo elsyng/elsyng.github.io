@@ -5,12 +5,16 @@
 
 .content {
     position: relative;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
+
+    background-color: black;
 }
 
 .header {
     position: fixed;
-    width: 100%;
+    width: 100vw;
     text-align: center;
     z-index: 2;
 
@@ -21,8 +25,8 @@
 .brand {
     position: relative;
     margin-left: auto;
-    margin-top: 9%;
-    margin-bottom: 2%;
+    margin-top: 10vh;
+    margin-bottom: 4vh;
 
     font-size: x-large;
     letter-spacing: 0.4em;
@@ -30,8 +34,8 @@
 .menu-category {
     position: relative;
     margin-left: auto;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
 
     font-size: large;
     letter-spacing: 0.2em;
@@ -40,8 +44,8 @@
     display: inline-block;
     position: relative;
     margin-left: auto;
-    margin-top: 24%;
-    margin-bottom: 5%;
+    margin-top: 50vh;
+    margin-bottom: 5vh;
     padding: 0.1%;
 }
 
