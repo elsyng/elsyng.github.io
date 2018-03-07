@@ -40,6 +40,11 @@ iframe {
   left: auto !important;
 }
 
+/*@media (min-width: 1200px)
+.container {
+    width: 90%;
+}*/
+
 /* Transition elsements */
 a,
 .btn {
@@ -2098,6 +2103,19 @@ Google map
 
 .col-fullwidth .gallery-image img {
   width: 100%;
+}
+
+.col-sm-6.col-md-5.col-lg-5 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.col-sm-6.col-md-5.col-lg-5 .gallery-image {
+  min-height: 50vw;
+}
+
+.col-sm-6.col-md-5.col-lg-5 .gallery-image img {
+  min-height: 50vw;
 }
 
 .col-sm-6.col-md-4.col-lg-4 {
